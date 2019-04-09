@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
 import commentReducer from './commentreducer';
+import Auth from './auth';
 
 export default combineReducers ({
-    comments: commentReducer
+    comments: commentReducer,
+    auth: Auth
 });
